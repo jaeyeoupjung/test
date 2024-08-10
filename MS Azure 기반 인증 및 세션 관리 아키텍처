@@ -189,7 +189,7 @@ API 관리: Azure API Management를 통해 API 접근 제어 및 로그 관리.
 
 4. 시퀀스 다이어그램
 시나리오 1: 사용자 로그인
-Plaintext
+
 User                    Azure AD                   API Management            Cosmos DB
  |                             |                             |                       |
  | - Enter credentials ------->|                             |                       |
@@ -199,7 +199,7 @@ User                    Azure AD                   API Management            Cos
  |<------- JWT Token --------- |                             |                       |
 
 시나리오 2: 데이터 조회
-Plaintext
+
 User                    API Management             Item Service            Cosmos DB
  |                             |                             |                       |
  | - Request item data ------->|                             |                       |
@@ -209,7 +209,7 @@ User                    API Management             Item Service            Cosmo
  |<---- Item data ------------|                             |                       |
 
 시나리오 3: 세션 갱신
-Plaintext
+
 User                    API Management              Session Service          Cosmos DB
  |                             |                             |                       |
  | - Request session renew ---->|                             |                       |
